@@ -1,11 +1,16 @@
 {
   "name": "hannahramirez_assignment5",
   "version": "1.0.0",
-  "description": "INM320SDD - Assignment 5",
+  "description": "INM320SDD - Assignment 3 (CSS Pre-compiler)",
   "main": "index.js",
   "scripts": {
+    "dev": "lite-server --baseDir=\"public\"",
+    "start": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hannah Ramirez",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
