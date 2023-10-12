@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "dev": "lite-server --baseDir=\"public\"",
+    "watch": "sass --watch src/scss:public/assets/css",
     "start": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hannah Ramirez",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "concurrently": "^8.2.1",
+    "lite-server": "^2.6.1",
+    "sass": "^1.69.3"
   }
 }
