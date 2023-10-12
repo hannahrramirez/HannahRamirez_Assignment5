@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "lite-server --baseDir=\"public\"",
-    "watch": "sass --watch src/scss:public/assets/css",
-    "start": "lite-server",
+    "watch": "sass --watch src/scss:public/assets/css/",
+    "start": "concurrently \"npm run watch\" \"npm run dev\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hannah Ramirez",
