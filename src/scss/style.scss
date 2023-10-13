@@ -9,6 +9,31 @@ $font-family_1: Quando;
 $font-family_2: 'Arial', sans-serif;
 $font-family_3: 'FontAwesome';
 
+//mixin 1//
+@mixin custom-h3 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: $font-family_2;
+    font-weight: 400;
+    line-height: 1.3em;
+    word-wrap: break-word;
+    color: $color_2;
+    font-size: 26px;
+  }
+
+//mixin 2//
+@mixin custom-h5 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-family: $font-family_2;
+    font-weight: 400;
+    line-height: 1.3em;
+    word-wrap: break-word;
+    color: $color_2;
+    font-size: 18px;
+  }
+
+
 /* header and main nav */
 /* posts */
 /* footer */
@@ -62,14 +87,7 @@ h2 {
 	font-size: 31px;
 }
 h3 {
-	margin-top: 25px;
-	margin-bottom: 20px;
-	font-family: $font-family_2;
-	font-weight: 400;
-	line-height: 1.3em;
-	word-wrap: break-word;
-	color: $color_2;
-	font-size: 26px;
+	@include custom-h3;
 }
 h4 {
 	margin-top: 25px;
@@ -82,14 +100,7 @@ h4 {
 	font-size: 21px;
 }
 h5 {
-	margin-top: 25px;
-	margin-bottom: 20px;
-	font-family: $font-family_2;
-	font-weight: 400;
-	line-height: 1.3em;
-	word-wrap: break-word;
-	color: $color_2;
-	font-size: 18px;
+	@include custom-h5;
 }
 h6 {
 	margin-top: 25px;
