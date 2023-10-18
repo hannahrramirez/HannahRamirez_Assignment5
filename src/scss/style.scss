@@ -34,12 +34,7 @@ $font-family_3: 'FontAwesome';
   }
 
 
-/* header and main nav */
-/* posts */
-/* footer */
-/* sub nav */
-/* posts */
-/* footer */
+
 body {
 	font-family: $font-family_1;
 	font-size: 15px;
@@ -57,9 +52,9 @@ p {
 a {
 	font-weight: 400;
 	text-decoration: none;
+	//variable 2//
 	color: $color_2;
 	transition: .20s;
-    //variable 2//
 	&:hover {
 		color: $color_3;
 	}
@@ -105,11 +100,11 @@ h5 {
 h6 {
 	margin-top: 25px;
 	margin-bottom: 20px;
+	//variable 5//
 	font-family: $font-family_2;
 	font-weight: 400;
 	line-height: 1.3em;
 	word-wrap: break-word;
-    //variable 5//
 	color: $color_2;
 	font-size: 15px;
 }
@@ -127,6 +122,8 @@ header {
 		}
 	}
 }
+//end of ensting 1//
+
 .top-logo {
 	width: 200px;
 	margin: 20px auto 40px;
@@ -157,12 +154,16 @@ article {
 		}
 	}
 }
+//end of nesting 2//
+
 footer {
 	padding: 30px 0;
 	text-align: center;
 	background: #eaf2ff;
 	color: $color_6;
 }
+
+//nesting 3//
 #footer {
 	a {
 		color: $color_6;
@@ -177,8 +178,9 @@ footer {
 	text-align: center;
 	vertical-align: middle;
 }
-
 //nesting 3//
+
+//nesting 4//
 .footer-social-links {
 	padding: 20px 0;
 	line-height: 2em;
@@ -192,6 +194,7 @@ footer {
 		}
 	}
 }
+// end of nesting 3//
 #footer-copyright {
 	padding: 20px 0;
 	font-size: 12px;
@@ -202,7 +205,6 @@ footer {
 		width: 90%;
 	}
 
-    //nesting 4//
 	header {
 		nav {
 			max-width: 1170px;
@@ -300,6 +302,8 @@ footer {
 			}
 		}
 	}
+	//end of nesting 5//
+	
 	.content-part {
 		flex: 1;
 		padding-left: 50px;
